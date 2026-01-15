@@ -54,6 +54,7 @@ defmodule Phoenix.LiveDashboard.MixProject do
       {:ecto_mysql_extras, "~> 0.5", optional: true},
       {:ecto_sqlite3_extras, "~> 1.1.7 or ~> 1.2.0", optional: true},
       {:ecto, "~> 3.6.2 or ~> 3.7", optional: true},
+      {:live_capture, "~> 0.2"},
 
       # Dev and test
       {:circular_buffer, "~> 0.4", only: :dev},
