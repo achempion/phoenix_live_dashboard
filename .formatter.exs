@@ -5,7 +5,7 @@ locals_without_parens = [
 ]
 
 [
-  import_deps: [:phoenix],
+  import_deps: [:phoenix, :live_capture],
   plugins: [Phoenix.LiveView.HTMLFormatter],
   # TODO: remove when we drop support for LV 0.19/0.20
   migrate_eex_to_curly_interpolation: false,
